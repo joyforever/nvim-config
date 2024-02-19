@@ -14,6 +14,15 @@ return {
         clangd = {
           filetypes = { "c", "cc", "cpp", "cxx", "objc" },
         },
+        gopls = {
+          settings = {
+            gopls = {
+              analyses = {
+                fieldalignment = false,
+              },
+            },
+          },
+        },
       },
     },
   },
